@@ -63,7 +63,10 @@ header nav ul li:hover{
     color: hsl(335, 86%, 86%);
 }
 
-.box form{height: 2px;}
+.box form{
+    font-size: 20px;
+    
+}
     
     
 
