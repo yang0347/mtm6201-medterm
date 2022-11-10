@@ -20,6 +20,7 @@ header img{
     height: 100px;  
 }
 
+/* using flex, because nav is a father that has a lot of children, and using x,y axis is easier to set up*/
 .banner {
     display: flex;
     justify-content: center;
@@ -63,28 +64,57 @@ header nav ul li:hover{
     color: hsl(335, 86%, 86%);
 }
 
-.box form{
-    font-size: 20px;
-    
+
+.block-1{
+    width: 310px;
+    height: 75px;
+    border: 2rem;
+    background-color:rgb(255, 205, 55);
+    border-radius: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    left: 527px;
+    top: 220px; 
+    font-size: 42px;
+    font-weight: bolder;
+    gap: 15px;
+    color: white;
 }
-    
-    
 
+.block-1 a{
+    text-decoration: none;
+    color: white;
+}
 
+.block-2{
+    width: 150px;
+    height: 55px;
+    border: 2rem;
+    background-color:rgb(137, 227, 255);
+    border-radius: 60px; 
+    box-shadow: 4px 5px rgba(189, 232, 243, 0.614);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    left: 1130px; 
+    top: 30px;
+    font-size: 21px;
+}
 
+.block-2 a{
+    text-decoration: none;
+    color:rgb(85, 85, 85);
+}
 
-
-
-
-
-
-
-
-
-
-
-/* using flex, because nav is a father that has a lot of children, and using x,y axis is easier to set up, eg. culumn*/
-
+/* there is a small gap between every elements---- using grid is easy to set */
+.pictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
