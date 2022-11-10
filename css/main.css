@@ -9,7 +9,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.container{
+.wrapper{
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -18,24 +18,21 @@ header {
     padding: 1rem;
 }
 
-.logo{
+.logo img{
     text-align:left;
-   
     height: 100px;  
 }
 
-.banner{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-
+nav{
+    display: none;
 }
-nav ul {
-    display: flex;
-   
 
-
+header a:hover{
+    display: block;
 }
+
+
+
 
 
 
