@@ -64,6 +64,48 @@ header nav ul li:hover{
     color: hsl(335, 86%, 86%);
 }
 
+main{
+    margin: 20px; 
+    background-color: antiquewhite;
+ }
+
+ main h2{
+    padding-left: 5px;
+    padding-top: 30px;
+
+ }
+
+
+.contact form{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+} 
+
+input{
+    border: black solid 0.1rem;
+    height: 25px;
+}
+
+#message{ 
+    height: 150px;
+}
+
+.contact button{
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: pink;
+    color:black;
+    font-size: 16px;
+}
+
+
+
+
+
+
 footer{
     padding: 1rem; 
 }
