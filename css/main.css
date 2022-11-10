@@ -14,12 +14,9 @@ body{
     max-width: 1200px;
 }
  
-header {
-    padding: 1rem;
-}
 
 header img{
-    text-align: center;
+    padding: 5px, 1600px, 0, 560px;
     height: 100px;  
 }
 
@@ -33,6 +30,13 @@ header img{
     display: flex;
     flex-direction:inherit;
     gap: 15px;
+}
+
+a{
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+
 }
 
 header nav ul{
