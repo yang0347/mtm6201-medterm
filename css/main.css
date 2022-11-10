@@ -18,18 +18,28 @@ header {
     padding: 1rem;
 }
 
-.logo img{
-    text-align:left;
+header img{
+    text-align: center;
     height: 100px;  
 }
 
-nav{
-    display: none;
+.banner {
+    display: flex;
+    justify-content: center;
+    gap:15px;
 }
 
-header a:hover{
-    display: block;
+.box{
+    display: flex;
+    flex-direction:inherit;
+    gap: 15px;
 }
+
+header nav ul{
+    display: flex;
+    gap: 15px;
+}
+
 
 
 
