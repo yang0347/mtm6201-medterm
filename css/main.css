@@ -97,58 +97,59 @@ main{
     color: white;
 }
 
+.part-2{
+    display: flex;
+    flex-direction: column;
+
+}
+
 .block-1 a{
     text-decoration: none;
     color: white;
 }
 
 .block-2{
-    width: 150px;
-    height: 55px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 210px;
+    width: 100px;
+    height: 30px;
     border: 2rem;
     background-color:rgb(137, 227, 255);
-    border-radius: 60px; 
+    border-radius: 15px; 
     box-shadow: 4px 5px rgba(189, 232, 243, 0.614);
     display: flex;
     justify-content: center;
     align-items: center; 
-    position: relative;
-    left: 1130px; 
-    top: 30px;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 .block-2 a{
     text-decoration: none;
     color:rgb(85, 85, 85);
 }
+.products{
+    width: 100%;
+}
 
 
-.pictures img:nth-child(1){
-    width: 200px;
-    height: 200px;
+.pictures img{
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+
 }
 
-.pictures img:nth-child(2){
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
-
-}
-
-.pictures img:nth-child(3){
-    width: 200px;
-    height: 200px;
-    border: 2px solid black; 
-  
-    
-}
    
 .serve{
     margin-top: 20px;
     padding: 13px;
-    width: 1280px;
+    width: 100%;
     background-color:  hsl(335, 86%, 86%);
 }
 
@@ -178,27 +179,6 @@ main{
     color:rgb(255, 255, 255);
 }
 
-/* there is a small gap between every elements---- using grid is easy to set */
-.news{
-    display:grid;
-    gap: 25px;
-    grid-template-areas: 
-    "g1 g1 g2 g2 g3 g3" 
-    "g4 g4 g5 g5 g6 g6" 
-    "g7 g7 g8 g8 g9 g9";
-}
-
-.news-1 img{grid-area: g1;}
-.news-2 img{grid-area: g2;}
-.news-3 img{grid-area: g3;}
-
-.news-1 p{grid-area: g3;}
-.news-2 p{grid-area: g4;}
-.news-3 p{grid-area: g5;}
-
-.news-1 nav{grid-area: g6;}
-.news-2 nav{grid-area: g7;}
-.news-3 nav{grid-area: g8;}
 
 .block-3{
     margin-top: 10px;
@@ -223,14 +203,27 @@ main{
 }
 
 .news h2{
+    padding: 8px 5px;
+    
     font-size: 32px;
     font-weight: bold;
 }
 
 .news{
-    width: 1280px;
+    width: 100%;
     margin-top: 5px;
     background-color: pink;
+}
+
+section{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section img{
+    width:100%;
 }
 
 
@@ -254,12 +247,29 @@ footer{
     
     }
 
-    .works-2{
-        display: flex;
-        flex-direction: row;
-        gap: 9px;
-        
-    }
+ 
+/* there is a small gap between every elements---- using grid is easy to set */
+.news{
+    width:100%;
+    display:grid;
+    gap: 25px;
+    grid-template-areas: 
+    "g1 g1 g2 g2 g3 g3" 
+    "g4 g4 g5 g5 g6 g6" 
+    "g7 g7 g8 g8 g9 g9";
+}
+
+.news-1 img{grid-area: g1;}
+.news-2 img{grid-area: g2;}
+.news-3 img{grid-area: g3;}
+
+.news-1 p{grid-area: g3;}
+.news-2 p{grid-area: g4;}
+.news-3 p{grid-area: g5;}
+
+.news-1 nav{grid-area: g6;}
+.news-2 nav{grid-area: g7;}
+.news-3 nav{grid-area: g8;}
    
 }
 
