@@ -203,6 +203,11 @@ header nav ul li:hover{
     justify-content: center;
     align-items: center; 
     font-size: 16px;
+    transition: all 1s;
+}
+
+.block-3:hover{
+    background-color: white;
 }
 
 .block-3 a{
@@ -221,8 +226,14 @@ header nav ul li:hover{
 }
 
 
+
 footer{
     padding: 1rem; 
+}
+
+.socialmedia ul{
+    display: flex;
+    flex-direction: row;
 }
 
 

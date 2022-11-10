@@ -1,0 +1,74 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+ 
+
+header img{
+    padding: 1rem;
+    height: 100px;  
+}
+
+/* using flex, because nav is a father that has a lot of children, and using x,y axis is easier to set up*/
+.banner {
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+
+.box{
+    display: flex;
+    flex-direction:inherit;
+    gap: 15px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    color:rgb(85, 85, 85);
+}
+
+header nav ul li:hover{
+    background-color: hsl(335, 86%, 86%);
+    padding: 5px;
+}
+
+.box a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    color:rgb(102, 102, 102);
+}
+
+.box a:hover, nav ul li a:active{
+    color: hsl(335, 86%, 86%);
+}
+
+footer{
+    padding: 1rem; 
+}
+
+.socialmedia ul{
+    display: flex;
+    flex-direction: row;
+}
