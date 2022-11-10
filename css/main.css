@@ -114,24 +114,45 @@ header nav ul li:hover{
     color:rgb(85, 85, 85);
 }
 
-/* there is a small gap between every elements---- using grid is easy to set */
-.pictures{
+#products{
+    display: flex;
+    gap: 25px;
+}
+
+.pictures img:nth-child(1){
     width: 260px;
     height: 260px;
-    display: flex;
-    gap: 15px;  
+    border: 2px solid black;
+}
+
+.pictures img:nth-child(2){
+    width: 260px;
+    height: 260px;
+    border: 2px solid black;
 }
 
 .pictures img:nth-child(3){
-    position: relative;
-    top: 11px;
+    width: 260px;
+    height: 260px;
+    border: 2px solid black;  
 }
    
 .serve{
-    margin: 20px;
-    padding: 5px;
+    margin-top: 20px;
+    padding: 13px;
+    width: 1280px;
     background-color:  hsl(335, 86%, 86%);
 }
+
+.serve h2{
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* there is a small gap between every elements---- using grid is easy to set */
+
 
 
 footer{
